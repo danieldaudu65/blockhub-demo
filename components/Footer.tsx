@@ -1,4 +1,4 @@
-import { discord, ftg, fx, logo, telegram, twitter } from '@/assets';
+import { discord, ftg, fx, logo } from '@/assets';
 import Image from 'next/image';
 import React from 'react';
 

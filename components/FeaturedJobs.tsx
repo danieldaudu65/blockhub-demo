@@ -22,7 +22,7 @@ const FeaturedJobs = () => {
                 {
                     suggested_search.map((item, index) => (
 
-                        <p className='border flex w-fit  border-[#3401CC] text-[12px] p-2 rounded-full px-4 my- text-[#ffffffb6]'>{item}</p>
+                        <p key={index} className='border flex w-fit  border-[#3401CC] text-[12px] p-2 rounded-full px-4 my- text-[#ffffffb6]'>{item}</p>
                     ))
                 }
             </div>
